@@ -79,3 +79,6 @@ jobs:
       - if: matrix.node == '18.x'
         name: Playground Smoke Test
         run: cd playgrounds && bash ./build.sh
+
+#      检查是否具有pass 标签
+      - name
